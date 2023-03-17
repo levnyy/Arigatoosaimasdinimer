@@ -1,0 +1,19 @@
+.post {
+    border-bottom: 2px solid white;
+    color : black;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.postTitle {
+    font-size: 1.2em;
+    margin: 3px;
+    color: grey;
+    font-weight: bold;
+}
+
+.postLink{
+    font-style: italic;
+    color: lightblue;
+    margin-left: 10px;
+}

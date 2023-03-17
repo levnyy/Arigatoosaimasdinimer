@@ -1,0 +1,15 @@
+.detail-container-styling {
+    padding: 3em;
+}
+
+.detail-container-styling h1 {
+    color: #4e4e4e;
+}
+.detail-container-styling p {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+    color: #4e4e4e;
+    margin-left: 10px;
+}
