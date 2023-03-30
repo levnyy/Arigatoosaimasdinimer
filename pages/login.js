@@ -1,3 +1,4 @@
+import LoginForm from '../store/index'
 export default function LoginPage() {
     return (
         <div>

@@ -1,7 +1,7 @@
 import { useGlobalContext } from '@/store/index.js';
 import Header from '../components/Header.js';
 import styles from './Navigation.module.css';
-
+import Link from 'next/link.js';
 export default function Navigation() {
 
     const {session, logout} = useGlobalContext();
@@ -9,7 +9,6 @@ export default function Navigation() {
         <nav className={styles.navigation}>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Login</a></li>
                 <li>
                 </li>
                 {session && <li><Link href="/">Logout</Link></li>}

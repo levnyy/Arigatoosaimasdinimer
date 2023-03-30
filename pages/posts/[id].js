@@ -1,6 +1,7 @@
 import PostsAPI from "@/lib/api/Posts";
 import Link from "next/link";
 import styles from "./DetailPost.module.css";
+import DeletePostButton from '../../store/index'
 
 export default function DetailPost({ post }) {
 
